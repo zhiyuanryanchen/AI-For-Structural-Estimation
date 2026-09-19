@@ -1,0 +1,16 @@
+project:
+  output-dir: _exports
+
+format:
+  docx:
+    toc-depth: 2
+  epub:
+    toc-depth: 2
+  pdf:
+    documentclass: ctexbook
+    classoption: [UTF8, fontset=fandol, openany]
+    pdf-engine: xelatex
+    babel-lang: english
+    papersize: a4
+    keep-tex: true
+    latex-auto-install: false

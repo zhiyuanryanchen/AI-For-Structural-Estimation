@@ -1,0 +1,73 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "AI 辅助的结构模型研究"
+  subtitle: "以实证产业组织为核心的方法、计算与研究判断"
+  output-file: ai-structural-research
+  search: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - planning/book-plan.qmd
+    - part: "第一篇：数值计算与优化"
+      chapters:
+        - chapters/01-numerical-language.qmd
+        - chapters/02-equations-fixed-points.qmd
+        - chapters/03-derivatives-optimization.qmd
+        - chapters/04-integration-simulation.qmd
+        - chapters/05-computational-system.qmd
+    - part: "第二篇：识别、估计与模型验证"
+      chapters:
+        - chapters/06-data-model-identification.qmd
+        - chapters/07-estimation-criteria.qmd
+        - chapters/08-inference-uncertainty.qmd
+        - chapters/09-validation-counterfactuals.qmd
+    - part: "第三篇：经典模型应用"
+      chapters:
+        - chapters/10-production-functions.qmd
+        - chapters/10-logit-demand.qmd
+        - chapters/11-random-coefficients-blp.qmd
+        - chapters/12-supply-costs-conduct.qmd
+        - chapters/13-mergers-welfare.qmd
+    - part: "第四篇：动态决策"
+      chapters:
+        - chapters/14-dynamic-programming.qmd
+        - chapters/15-dynamic-discrete-choice.qmd
+        - chapters/16-dynamic-counterfactuals.qmd
+    - part: "第五篇：战略互动与市场结构"
+      chapters:
+        - chapters/17-entry-equilibria.qmd
+        - chapters/18-games-partial-identification.qmd
+        - chapters/19-dynamic-games.qmd
+    - part: "第六篇：前沿实验与研究实践"
+      chapters:
+        - chapters/20-ai-computation.qmd
+        - chapters/21-ai-measurement.qmd
+        - chapters/22-collaboration-research.qmd
+    - references.qmd
+  appendices:
+    - companion/lab-map.qmd
+    - companion/writing-guide.qmd
+    - collaboration-guide/index.md
+    - collaboration-guide/github-collaboration-guide.md
+    - collaboration-guide/quarto-writing-guide.md
+
+lang: zh
+toc: true
+number-depth: 2
+
+format:
+  html:
+    theme: cosmo
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    html-math-method: mathjax
+
+execute:
+  error: false
+  warning: true

@@ -1,0 +1,23 @@
+# 素材与参考资源 {.unnumbered}
+
+本页记录本轮策划使用的素材与官方技术入口，不是已经完成的全书文献综述。正式章节将按论断补齐原始论文、页码或章节位置，不把软件文档代替经济学文献依据。以下在线页面于 2026 年 9 月 18 日查阅。
+
+## 课程与已有书稿
+
+- 陈志远：《经济与商务实证研究方法》第 6 周，[结构估计基础：模型、识别、仿真与数值方法](https://zhiyuanryanchen.github.io/empirical-methods/2026Spring/LectureNotes/W6_Structural_Foundations.html)，2026 年 5 月 29 日。
+- 陈志远：《经济与商务实证研究方法》第 7 周，[结构估计应用：需求、均衡、反事实与人工智能辅助工作流](https://zhiyuanryanchen.github.io/empirical-methods/2026Spring/LectureNotes/W7_Structural_Applications.html)，2026 年 6 月 12 日。
+- 《一站式科研：AI 时代经济学研究的工具、方法与工作流》，当前工作区书稿；本次读取前言、目录和第 17 章综合对比演示。公开版链接在确认发布地址后补入，不使用本地绝对路径作为读者链接。
+
+## 计算与复现资源
+
+- [PyBLP 官方文档](https://pyblp.readthedocs.io/en/stable/)：需求、供给、微观矩、模拟及估计后分析的候选工具；具体版本与案例在实验实现时固定。
+- [QuantEcon：Intermediate Quantitative Economics with Python](https://python.quantecon.org/intro.html)：线性代数、求根、动态规划及定量经济学的教学参考。
+
+这些入口用于选择基准和了解公开教程，不代表本项目已经核验所有数据许可、复现所有结果或完成相应文献综述。
+
+## Quarto 官方依据
+
+- [图书结构](https://quarto.org/docs/books/book-structure.html)：章节、篇、附录与交叉引用；Word 和 EPUB 对“篇”的限制。
+- [图书输出](https://quarto.org/docs/books/book-output.html)：HTML、Word、EPUB 与 PDF 输出配置。
+- [项目 Profiles](https://quarto.org/docs/projects/profiles.html)：网页和导出配置的组织。
+- [条件内容](https://quarto.org/docs/authoring/conditional.html)：不同媒介的内容显示规则及执行边界。
